@@ -10,6 +10,7 @@ import { EstatisticasComponent } from './components/equipe/estatisticas/estatist
 import { ProdutosComponent } from './components/loja/produtos/produtos.component';
 import { IngressosComponent } from './components/loja/ingressos/ingressos.component';
 import { NoticiasComponent } from './components/noticias/noticias.component';
+import { JogadoresComponent } from './components/equipe/jogadores/jogadores.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NoticiasComponent } from './components/noticias/noticias.component';
     EstatisticasComponent,
     ProdutosComponent,
     IngressosComponent,
-    NoticiasComponent
+    NoticiasComponent,
+    JogadoresComponent
   ],
   imports: [
     BrowserModule,
