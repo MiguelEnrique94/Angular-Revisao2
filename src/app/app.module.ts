@@ -8,6 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ProxJogosComponent } from './components/equipe/prox-jogos/prox-jogos.component';
 import { EstatisticasComponent } from './components/equipe/estatisticas/estatisticas.component';
 import { ProdutosComponent } from './components/loja/produtos/produtos.component';
+import { IngressosComponent } from './components/loja/ingressos/ingressos.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ProdutosComponent } from './components/loja/produtos/produtos.component
     HomeComponent,
     ProxJogosComponent,
     EstatisticasComponent,
-    ProdutosComponent
+    ProdutosComponent,
+    IngressosComponent
   ],
   imports: [
     BrowserModule,
