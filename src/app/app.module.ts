@@ -9,6 +9,7 @@ import { ProxJogosComponent } from './components/equipe/prox-jogos/prox-jogos.co
 import { EstatisticasComponent } from './components/equipe/estatisticas/estatisticas.component';
 import { ProdutosComponent } from './components/loja/produtos/produtos.component';
 import { IngressosComponent } from './components/loja/ingressos/ingressos.component';
+import { NoticiasComponent } from './components/noticias/noticias.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { IngressosComponent } from './components/loja/ingressos/ingressos.compon
     ProxJogosComponent,
     EstatisticasComponent,
     ProdutosComponent,
-    IngressosComponent
+    IngressosComponent,
+    NoticiasComponent
   ],
   imports: [
     BrowserModule,
