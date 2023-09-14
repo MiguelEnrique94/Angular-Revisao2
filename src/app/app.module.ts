@@ -7,6 +7,7 @@ import { HeaderComponent } from './template/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProxJogosComponent } from './components/equipe/prox-jogos/prox-jogos.component';
 import { EstatisticasComponent } from './components/equipe/estatisticas/estatisticas.component';
+import { ProdutosComponent } from './components/loja/produtos/produtos.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { EstatisticasComponent } from './components/equipe/estatisticas/estatist
     HeaderComponent,
     HomeComponent,
     ProxJogosComponent,
-    EstatisticasComponent
+    EstatisticasComponent,
+    ProdutosComponent
   ],
   imports: [
     BrowserModule,
